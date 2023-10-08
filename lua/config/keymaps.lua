@@ -14,7 +14,7 @@ wk.register({
   ["<leader>c"] = {
     name = "Code",
     a = { "<cmd>lua vim.lsp.buf.code_action()<CR>", "Code Action" },
-    d = { "<cmd>lua vim.lsp.buf.definition()<CR>", "Go to Definition" },
+    d = { "<cmd>Telescope lsp_definitions<CR>", "Find Definitions" },
     f = { "<cmd>lua vim.lsp.buf.formatting()<CR>", "Format Code" },
     r = { "<cmd>lua vim.lsp.buf.rename()<CR>", "Rename Symbol" },
   },
