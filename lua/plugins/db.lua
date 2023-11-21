@@ -1,7 +1,7 @@
 return {
   "kristijanhusak/vim-dadbod-ui",
   dependencies = {
-    { "iMithrellas/vim-dadbod", lazy = true },
+    { "tpope/vim-dadbod", lazy = true }, -- change tpope for imithrellas for windows
     { "tpope/vim-dispatch", lazy = true },
     { "kristijanhusak/vim-dadbod-completion", ft = { "sql", "mysql", "plsql" }, lazy = true },
   },
